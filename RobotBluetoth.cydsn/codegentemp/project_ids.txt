@@ -1,0 +1,6 @@
+C:\Users\Gabriel\OneDrive - frt.utn.edu.ar\Documentos\PSoC Creator\Proyecto_DigitalesII\RobotBluetoth.cydsn\RobotBluetoth.cyprj|f1effbb9-233c-4a98-bf42-bff111a7308f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|cc35628d-0f8d-437a-936e-58069dd431e6
+C:\Users\Gabriel\OneDrive - frt.utn.edu.ar\Documentos\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|157eb55e-3067-4f08-9425-9b23a9e1fe43
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|211bf503-b173-4acd-936d-3e2db54ebe18
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|871470b1-a5f8-405e-9441-7efce85976e9
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|659b7aa2-03f5-4841-8052-2bc8d1fc2f50

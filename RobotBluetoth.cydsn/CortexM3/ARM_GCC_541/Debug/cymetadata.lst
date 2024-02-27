@@ -1,0 +1,1312 @@
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 780
+  28              	cy_meta_configecc:
+  29 0000 01       		.byte	1
+  30 0001 52       		.byte	82
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 03       		.byte	3
+  34 0005 64       		.byte	100
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 01       		.byte	1
+  38 0009 01       		.byte	1
+  39 000a 01       		.byte	1
+  40 000b 40       		.byte	64
+  41 000c 4F       		.byte	79
+  42 000d 02       		.byte	2
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 31       		.byte	49
+  46 0011 03       		.byte	3
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 08       		.byte	8
+  50 0015 04       		.byte	4
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 40       		.byte	64
+  54 0019 05       		.byte	5
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 02       		.byte	2
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 2
+
+
+  58 001d 07       		.byte	7
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 01       		.byte	1
+  62 0021 15       		.byte	21
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 01       		.byte	1
+  66 0025 1B       		.byte	27
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 05       		.byte	5
+  70 0029 40       		.byte	64
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 06       		.byte	6
+  74 002d 41       		.byte	65
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 06       		.byte	6
+  78 0031 42       		.byte	66
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 05       		.byte	5
+  82 0035 43       		.byte	67
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 03       		.byte	3
+  86 0039 44       		.byte	68
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 01       		.byte	1
+  90 003d 45       		.byte	69
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 01       		.byte	1
+  94 0041 46       		.byte	70
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 01       		.byte	1
+  98 0045 47       		.byte	71
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 01       		.byte	1
+ 102 0049 48       		.byte	72
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 02       		.byte	2
+ 106 004d 49       		.byte	73
+ 107 004e 01       		.byte	1
+ 108 004f 40       		.byte	64
+ 109 0050 08       		.byte	8
+ 110 0051 4C       		.byte	76
+ 111 0052 01       		.byte	1
+ 112 0053 40       		.byte	64
+ 113 0054 06       		.byte	6
+ 114 0055 4D       		.byte	77
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 3
+
+
+ 115 0056 01       		.byte	1
+ 116 0057 40       		.byte	64
+ 117 0058 03       		.byte	3
+ 118 0059 50       		.byte	80
+ 119 005a 01       		.byte	1
+ 120 005b 40       		.byte	64
+ 121 005c 02       		.byte	2
+ 122 005d 51       		.byte	81
+ 123 005e 01       		.byte	1
+ 124 005f 40       		.byte	64
+ 125 0060 01       		.byte	1
+ 126 0061 08       		.byte	8
+ 127 0062 82       		.byte	-126
+ 128 0063 0F       		.byte	15
+ 129 0064 83       		.byte	-125
+ 130 0065 38       		.byte	56
+ 131 0066 84       		.byte	-124
+ 132 0067 72       		.byte	114
+ 133 0068 87       		.byte	-121
+ 134 0069 40       		.byte	64
+ 135 006a 03       		.byte	3
+ 136 006b 03       		.byte	3
+ 137 006c 07       		.byte	7
+ 138 006d 0C       		.byte	12
+ 139 006e 11       		.byte	17
+ 140 006f 08       		.byte	8
+ 141 0070 12       		.byte	18
+ 142 0071 0D       		.byte	13
+ 143 0072 15       		.byte	21
+ 144 0073 02       		.byte	2
+ 145 0074 16       		.byte	22
+ 146 0075 04       		.byte	4
+ 147 0076 1E       		.byte	30
+ 148 0077 01       		.byte	1
+ 149 0078 22       		.byte	34
+ 150 0079 02       		.byte	2
+ 151 007a 2A       		.byte	42
+ 152 007b 08       		.byte	8
+ 153 007c 30       		.byte	48
+ 154 007d 02       		.byte	2
+ 155 007e 31       		.byte	49
+ 156 007f 02       		.byte	2
+ 157 0080 32       		.byte	50
+ 158 0081 04       		.byte	4
+ 159 0082 33       		.byte	51
+ 160 0083 08       		.byte	8
+ 161 0084 34       		.byte	52
+ 162 0085 08       		.byte	8
+ 163 0086 35       		.byte	53
+ 164 0087 01       		.byte	1
+ 165 0088 36       		.byte	54
+ 166 0089 01       		.byte	1
+ 167 008a 37       		.byte	55
+ 168 008b 04       		.byte	4
+ 169 008c 3E       		.byte	62
+ 170 008d 04       		.byte	4
+ 171 008e 40       		.byte	64
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 4
+
+
+ 172 008f 50       		.byte	80
+ 173 0090 41       		.byte	65
+ 174 0091 06       		.byte	6
+ 175 0092 45       		.byte	69
+ 176 0093 D0       		.byte	-48
+ 177 0094 46       		.byte	70
+ 178 0095 20       		.byte	32
+ 179 0096 47       		.byte	71
+ 180 0097 15       		.byte	21
+ 181 0098 48       		.byte	72
+ 182 0099 3A       		.byte	58
+ 183 009a 49       		.byte	73
+ 184 009b FF       		.byte	-1
+ 185 009c 4A       		.byte	74
+ 186 009d FF       		.byte	-1
+ 187 009e 4B       		.byte	75
+ 188 009f FF       		.byte	-1
+ 189 00a0 4D       		.byte	77
+ 190 00a1 A0       		.byte	-96
+ 191 00a2 4F       		.byte	79
+ 192 00a3 04       		.byte	4
+ 193 00a4 50       		.byte	80
+ 194 00a5 18       		.byte	24
+ 195 00a6 52       		.byte	82
+ 196 00a7 80       		.byte	-128
+ 197 00a8 54       		.byte	84
+ 198 00a9 07       		.byte	7
+ 199 00aa 56       		.byte	86
+ 200 00ab 04       		.byte	4
+ 201 00ac 58       		.byte	88
+ 202 00ad 04       		.byte	4
+ 203 00ae 59       		.byte	89
+ 204 00af 04       		.byte	4
+ 205 00b0 5A       		.byte	90
+ 206 00b1 04       		.byte	4
+ 207 00b2 5B       		.byte	91
+ 208 00b3 04       		.byte	4
+ 209 00b4 5C       		.byte	92
+ 210 00b5 11       		.byte	17
+ 211 00b6 5D       		.byte	93
+ 212 00b7 11       		.byte	17
+ 213 00b8 5F       		.byte	95
+ 214 00b9 01       		.byte	1
+ 215 00ba 60       		.byte	96
+ 216 00bb 40       		.byte	64
+ 217 00bc 62       		.byte	98
+ 218 00bd C0       		.byte	-64
+ 219 00be 64       		.byte	100
+ 220 00bf 40       		.byte	64
+ 221 00c0 65       		.byte	101
+ 222 00c1 40       		.byte	64
+ 223 00c2 66       		.byte	102
+ 224 00c3 C0       		.byte	-64
+ 225 00c4 68       		.byte	104
+ 226 00c5 C0       		.byte	-64
+ 227 00c6 6A       		.byte	106
+ 228 00c7 C0       		.byte	-64
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 5
+
+
+ 229 00c8 6C       		.byte	108
+ 230 00c9 C0       		.byte	-64
+ 231 00ca 6E       		.byte	110
+ 232 00cb C0       		.byte	-64
+ 233 00cc 80       		.byte	-128
+ 234 00cd 80       		.byte	-128
+ 235 00ce 84       		.byte	-124
+ 236 00cf 22       		.byte	34
+ 237 00d0 86       		.byte	-122
+ 238 00d1 51       		.byte	81
+ 239 00d2 8C       		.byte	-116
+ 240 00d3 44       		.byte	68
+ 241 00d4 8E       		.byte	-114
+ 242 00d5 31       		.byte	49
+ 243 00d6 8F       		.byte	-113
+ 244 00d7 02       		.byte	2
+ 245 00d8 94       		.byte	-108
+ 246 00d9 E7       		.byte	-25
+ 247 00da 98       		.byte	-104
+ 248 00db 01       		.byte	1
+ 249 00dc 9A       		.byte	-102
+ 250 00dd 0E       		.byte	14
+ 251 00de 9B       		.byte	-101
+ 252 00df 01       		.byte	1
+ 253 00e0 9F       		.byte	-97
+ 254 00e1 02       		.byte	2
+ 255 00e2 A4       		.byte	-92
+ 256 00e3 E7       		.byte	-25
+ 257 00e4 A7       		.byte	-89
+ 258 00e5 01       		.byte	1
+ 259 00e6 A9       		.byte	-87
+ 260 00e7 01       		.byte	1
+ 261 00e8 AD       		.byte	-83
+ 262 00e9 01       		.byte	1
+ 263 00ea B0       		.byte	-80
+ 264 00eb 60       		.byte	96
+ 265 00ec B2       		.byte	-78
+ 266 00ed 18       		.byte	24
+ 267 00ee B4       		.byte	-76
+ 268 00ef 07       		.byte	7
+ 269 00f0 B5       		.byte	-75
+ 270 00f1 02       		.byte	2
+ 271 00f2 B6       		.byte	-74
+ 272 00f3 80       		.byte	-128
+ 273 00f4 B7       		.byte	-73
+ 274 00f5 01       		.byte	1
+ 275 00f6 B9       		.byte	-71
+ 276 00f7 80       		.byte	-128
+ 277 00f8 BE       		.byte	-66
+ 278 00f9 04       		.byte	4
+ 279 00fa BF       		.byte	-65
+ 280 00fb 10       		.byte	16
+ 281 00fc D4       		.byte	-44
+ 282 00fd 18       		.byte	24
+ 283 00fe D6       		.byte	-42
+ 284 00ff 04       		.byte	4
+ 285 0100 D8       		.byte	-40
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 6
+
+
+ 286 0101 04       		.byte	4
+ 287 0102 D9       		.byte	-39
+ 288 0103 04       		.byte	4
+ 289 0104 DB       		.byte	-37
+ 290 0105 04       		.byte	4
+ 291 0106 DF       		.byte	-33
+ 292 0107 01       		.byte	1
+ 293 0108 00       		.byte	0
+ 294 0109 42       		.byte	66
+ 295 010a 01       		.byte	1
+ 296 010b 08       		.byte	8
+ 297 010c 08       		.byte	8
+ 298 010d 10       		.byte	16
+ 299 010e 0A       		.byte	10
+ 300 010f 24       		.byte	36
+ 301 0110 0C       		.byte	12
+ 302 0111 02       		.byte	2
+ 303 0112 0E       		.byte	14
+ 304 0113 80       		.byte	-128
+ 305 0114 0F       		.byte	15
+ 306 0115 22       		.byte	34
+ 307 0116 11       		.byte	17
+ 308 0117 04       		.byte	4
+ 309 0118 16       		.byte	22
+ 310 0119 84       		.byte	-124
+ 311 011a 18       		.byte	24
+ 312 011b 50       		.byte	80
+ 313 011c 1A       		.byte	26
+ 314 011d 05       		.byte	5
+ 315 011e 1D       		.byte	29
+ 316 011f 48       		.byte	72
+ 317 0120 1E       		.byte	30
+ 318 0121 80       		.byte	-128
+ 319 0122 1F       		.byte	31
+ 320 0123 10       		.byte	16
+ 321 0124 21       		.byte	33
+ 322 0125 40       		.byte	64
+ 323 0126 23       		.byte	35
+ 324 0127 04       		.byte	4
+ 325 0128 27       		.byte	39
+ 326 0129 A5       		.byte	-91
+ 327 012a 29       		.byte	41
+ 328 012b A4       		.byte	-92
+ 329 012c 31       		.byte	49
+ 330 012d 20       		.byte	32
+ 331 012e 32       		.byte	50
+ 332 012f 80       		.byte	-128
+ 333 0130 37       		.byte	55
+ 334 0131 05       		.byte	5
+ 335 0132 39       		.byte	57
+ 336 0133 80       		.byte	-128
+ 337 0134 3C       		.byte	60
+ 338 0135 08       		.byte	8
+ 339 0136 3F       		.byte	63
+ 340 0137 02       		.byte	2
+ 341 0138 45       		.byte	69
+ 342 0139 08       		.byte	8
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 7
+
+
+ 343 013a 47       		.byte	71
+ 344 013b 08       		.byte	8
+ 345 013c 4C       		.byte	76
+ 346 013d 02       		.byte	2
+ 347 013e 4F       		.byte	79
+ 348 013f 21       		.byte	33
+ 349 0140 54       		.byte	84
+ 350 0141 04       		.byte	4
+ 351 0142 56       		.byte	86
+ 352 0143 04       		.byte	4
+ 353 0144 57       		.byte	87
+ 354 0145 11       		.byte	17
+ 355 0146 5B       		.byte	91
+ 356 0147 02       		.byte	2
+ 357 0148 5F       		.byte	95
+ 358 0149 A9       		.byte	-87
+ 359 014a 60       		.byte	96
+ 360 014b 02       		.byte	2
+ 361 014c 63       		.byte	99
+ 362 014d 44       		.byte	68
+ 363 014e 66       		.byte	102
+ 364 014f 02       		.byte	2
+ 365 0150 76       		.byte	118
+ 366 0151 80       		.byte	-128
+ 367 0152 86       		.byte	-122
+ 368 0153 02       		.byte	2
+ 369 0154 87       		.byte	-121
+ 370 0155 10       		.byte	16
+ 371 0156 97       		.byte	-105
+ 372 0157 40       		.byte	64
+ 373 0158 C0       		.byte	-64
+ 374 0159 0D       		.byte	13
+ 375 015a C2       		.byte	-62
+ 376 015b B6       		.byte	-74
+ 377 015c C4       		.byte	-60
+ 378 015d 54       		.byte	84
+ 379 015e CA       		.byte	-54
+ 380 015f 0E       		.byte	14
+ 381 0160 CC       		.byte	-52
+ 382 0161 CC       		.byte	-52
+ 383 0162 CE       		.byte	-50
+ 384 0163 C8       		.byte	-56
+ 385 0164 D2       		.byte	-46
+ 386 0165 30       		.byte	48
+ 387 0166 D6       		.byte	-42
+ 388 0167 F1       		.byte	-15
+ 389 0168 D8       		.byte	-40
+ 390 0169 8D       		.byte	-115
+ 391 016a 86       		.byte	-122
+ 392 016b 02       		.byte	2
+ 393 016c 9A       		.byte	-102
+ 394 016d 01       		.byte	1
+ 395 016e AA       		.byte	-86
+ 396 016f 01       		.byte	1
+ 397 0170 B0       		.byte	-80
+ 398 0171 01       		.byte	1
+ 399 0172 B6       		.byte	-74
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 8
+
+
+ 400 0173 02       		.byte	2
+ 401 0174 BE       		.byte	-66
+ 402 0175 01       		.byte	1
+ 403 0176 D8       		.byte	-40
+ 404 0177 04       		.byte	4
+ 405 0178 DF       		.byte	-33
+ 406 0179 01       		.byte	1
+ 407 017a 00       		.byte	0
+ 408 017b 04       		.byte	4
+ 409 017c 01       		.byte	1
+ 410 017d A0       		.byte	-96
+ 411 017e 02       		.byte	2
+ 412 017f 40       		.byte	64
+ 413 0180 05       		.byte	5
+ 414 0181 08       		.byte	8
+ 415 0182 08       		.byte	8
+ 416 0183 12       		.byte	18
+ 417 0184 0A       		.byte	10
+ 418 0185 51       		.byte	81
+ 419 0186 0D       		.byte	13
+ 420 0187 10       		.byte	16
+ 421 0188 10       		.byte	16
+ 422 0189 20       		.byte	32
+ 423 018a 11       		.byte	17
+ 424 018b 40       		.byte	64
+ 425 018c 13       		.byte	19
+ 426 018d 11       		.byte	17
+ 427 018e 17       		.byte	23
+ 428 018f 20       		.byte	32
+ 429 0190 19       		.byte	25
+ 430 0191 A4       		.byte	-92
+ 431 0192 1A       		.byte	26
+ 432 0193 90       		.byte	-112
+ 433 0194 1B       		.byte	27
+ 434 0195 60       		.byte	96
+ 435 0196 1D       		.byte	29
+ 436 0197 40       		.byte	64
+ 437 0198 1E       		.byte	30
+ 438 0199 40       		.byte	64
+ 439 019a 20       		.byte	32
+ 440 019b 04       		.byte	4
+ 441 019c 21       		.byte	33
+ 442 019d 20       		.byte	32
+ 443 019e 22       		.byte	34
+ 444 019f 08       		.byte	8
+ 445 01a0 23       		.byte	35
+ 446 01a1 22       		.byte	34
+ 447 01a2 28       		.byte	40
+ 448 01a3 10       		.byte	16
+ 449 01a4 29       		.byte	41
+ 450 01a5 60       		.byte	96
+ 451 01a6 2B       		.byte	43
+ 452 01a7 40       		.byte	64
+ 453 01a8 30       		.byte	48
+ 454 01a9 20       		.byte	32
+ 455 01aa 31       		.byte	49
+ 456 01ab 86       		.byte	-122
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 9
+
+
+ 457 01ac 38       		.byte	56
+ 458 01ad 44       		.byte	68
+ 459 01ae 3A       		.byte	58
+ 460 01af 40       		.byte	64
+ 461 01b0 3B       		.byte	59
+ 462 01b1 11       		.byte	17
+ 463 01b2 40       		.byte	64
+ 464 01b3 10       		.byte	16
+ 465 01b4 41       		.byte	65
+ 466 01b5 80       		.byte	-128
+ 467 01b6 42       		.byte	66
+ 468 01b7 01       		.byte	1
+ 469 01b8 43       		.byte	67
+ 470 01b9 20       		.byte	32
+ 471 01ba 49       		.byte	73
+ 472 01bb 80       		.byte	-128
+ 473 01bc 4A       		.byte	74
+ 474 01bd 08       		.byte	8
+ 475 01be 51       		.byte	81
+ 476 01bf 10       		.byte	16
+ 477 01c0 52       		.byte	82
+ 478 01c1 80       		.byte	-128
+ 479 01c2 5A       		.byte	90
+ 480 01c3 80       		.byte	-128
+ 481 01c4 68       		.byte	104
+ 482 01c5 01       		.byte	1
+ 483 01c6 69       		.byte	105
+ 484 01c7 04       		.byte	4
+ 485 01c8 6A       		.byte	106
+ 486 01c9 20       		.byte	32
+ 487 01ca 70       		.byte	112
+ 488 01cb 20       		.byte	32
+ 489 01cc 73       		.byte	115
+ 490 01cd 11       		.byte	17
+ 491 01ce 90       		.byte	-112
+ 492 01cf 50       		.byte	80
+ 493 01d0 92       		.byte	-110
+ 494 01d1 01       		.byte	1
+ 495 01d2 95       		.byte	-107
+ 496 01d3 04       		.byte	4
+ 497 01d4 96       		.byte	-106
+ 498 01d5 20       		.byte	32
+ 499 01d6 98       		.byte	-104
+ 500 01d7 10       		.byte	16
+ 501 01d8 9C       		.byte	-100
+ 502 01d9 02       		.byte	2
+ 503 01da 9D       		.byte	-99
+ 504 01db AC       		.byte	-84
+ 505 01dc 9F       		.byte	-97
+ 506 01dd 02       		.byte	2
+ 507 01de A4       		.byte	-92
+ 508 01df 01       		.byte	1
+ 509 01e0 A5       		.byte	-91
+ 510 01e1 20       		.byte	32
+ 511 01e2 A6       		.byte	-90
+ 512 01e3 80       		.byte	-128
+ 513 01e4 B1       		.byte	-79
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 10
+
+
+ 514 01e5 40       		.byte	64
+ 515 01e6 C0       		.byte	-64
+ 516 01e7 2F       		.byte	47
+ 517 01e8 C2       		.byte	-62
+ 518 01e9 47       		.byte	71
+ 519 01ea C4       		.byte	-60
+ 520 01eb 4F       		.byte	79
+ 521 01ec CA       		.byte	-54
+ 522 01ed 0F       		.byte	15
+ 523 01ee CC       		.byte	-52
+ 524 01ef 0F       		.byte	15
+ 525 01f0 CE       		.byte	-50
+ 526 01f1 0F       		.byte	15
+ 527 01f2 D0       		.byte	-48
+ 528 01f3 0E       		.byte	14
+ 529 01f4 D2       		.byte	-46
+ 530 01f5 0C       		.byte	12
+ 531 01f6 D6       		.byte	-42
+ 532 01f7 08       		.byte	8
+ 533 01f8 EA       		.byte	-22
+ 534 01f9 80       		.byte	-128
+ 535 01fa A9       		.byte	-87
+ 536 01fb 48       		.byte	72
+ 537 01fc AD       		.byte	-83
+ 538 01fd 02       		.byte	2
+ 539 01fe EA       		.byte	-22
+ 540 01ff 01       		.byte	1
+ 541 0200 EA       		.byte	-22
+ 542 0201 01       		.byte	1
+ 543 0202 30       		.byte	48
+ 544 0203 40       		.byte	64
+ 545 0204 35       		.byte	53
+ 546 0205 20       		.byte	32
+ 547 0206 85       		.byte	-123
+ 548 0207 20       		.byte	32
+ 549 0208 CC       		.byte	-52
+ 550 0209 30       		.byte	48
+ 551 020a E6       		.byte	-26
+ 552 020b 40       		.byte	64
+ 553 020c 52       		.byte	82
+ 554 020d 80       		.byte	-128
+ 555 020e 58       		.byte	88
+ 556 020f 10       		.byte	16
+ 557 0210 84       		.byte	-124
+ 558 0211 50       		.byte	80
+ 559 0212 9C       		.byte	-100
+ 560 0213 40       		.byte	64
+ 561 0214 D4       		.byte	-44
+ 562 0215 A0       		.byte	-96
+ 563 0216 E6       		.byte	-26
+ 564 0217 50       		.byte	80
+ 565 0218 02       		.byte	2
+ 566 0219 10       		.byte	16
+ 567 021a 03       		.byte	3
+ 568 021b 20       		.byte	32
+ 569 021c 3E       		.byte	62
+ 570 021d 10       		.byte	16
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 11
+
+
+ 571 021e B2       		.byte	-78
+ 572 021f 80       		.byte	-128
+ 573 0220 C0       		.byte	-64
+ 574 0221 10       		.byte	16
+ 575 0222 CE       		.byte	-50
+ 576 0223 20       		.byte	32
+ 577 0224 96       		.byte	-106
+ 578 0225 10       		.byte	16
+ 579 0226 AB       		.byte	-85
+ 580 0227 20       		.byte	32
+ 581 0228 AE       		.byte	-82
+ 582 0229 10       		.byte	16
+ 583 022a E8       		.byte	-24
+ 584 022b 40       		.byte	64
+ 585 022c EC       		.byte	-20
+ 586 022d 20       		.byte	32
+ 587 022e 10       		.byte	16
+ 588 022f 10       		.byte	16
+ 589 0230 14       		.byte	20
+ 590 0231 20       		.byte	32
+ 591 0232 C4       		.byte	-60
+ 592 0233 0C       		.byte	12
+ 593 0234 98       		.byte	-104
+ 594 0235 30       		.byte	48
+ 595 0236 98       		.byte	-104
+ 596 0237 30       		.byte	48
+ 597 0238 98       		.byte	-104
+ 598 0239 30       		.byte	48
+ 599 023a 96       		.byte	-106
+ 600 023b 10       		.byte	16
+ 601 023c AA       		.byte	-86
+ 602 023d 10       		.byte	16
+ 603 023e EA       		.byte	-22
+ 604 023f 80       		.byte	-128
+ 605 0240 10       		.byte	16
+ 606 0241 40       		.byte	64
+ 607 0242 13       		.byte	19
+ 608 0243 20       		.byte	32
+ 609 0244 14       		.byte	20
+ 610 0245 80       		.byte	-128
+ 611 0246 78       		.byte	120
+ 612 0247 10       		.byte	16
+ 613 0248 7C       		.byte	124
+ 614 0249 20       		.byte	32
+ 615 024a 98       		.byte	-104
+ 616 024b 30       		.byte	48
+ 617 024c C4       		.byte	-60
+ 618 024d 0E       		.byte	14
+ 619 024e DE       		.byte	-34
+ 620 024f 03       		.byte	3
+ 621 0250 78       		.byte	120
+ 622 0251 40       		.byte	64
+ 623 0252 7C       		.byte	124
+ 624 0253 80       		.byte	-128
+ 625 0254 98       		.byte	-104
+ 626 0255 C0       		.byte	-64
+ 627 0256 AB       		.byte	-85
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 12
+
+
+ 628 0257 20       		.byte	32
+ 629 0258 DC       		.byte	-36
+ 630 0259 01       		.byte	1
+ 631 025a DE       		.byte	-34
+ 632 025b 04       		.byte	4
+ 633 025c 00       		.byte	0
+ 634 025d 03       		.byte	3
+ 635 025e 08       		.byte	8
+ 636 025f 03       		.byte	3
+ 637 0260 0A       		.byte	10
+ 638 0261 01       		.byte	1
+ 639 0262 00       		.byte	0
+ 640 0263 0F       		.byte	15
+ 641 0264 03       		.byte	3
+ 642 0265 C0       		.byte	-64
+ 643 0266 00       		.byte	0
+ 644 0267 00       		.byte	0
+ 645 0268 20       		.byte	32
+ 646 0269 30       		.byte	48
+ 647 026a 00       		.byte	0
+ 648 026b 00       		.byte	0
+ 649 026c 34       		.byte	52
+ 650 026d 00       		.byte	0
+ 651 026e 00       		.byte	0
+ 652 026f 00       		.byte	0
+ 653 0270 02       		.byte	2
+ 654 0271 10       		.byte	16
+ 655 0272 00       		.byte	0
+ 656 0273 00       		.byte	0
+ 657 0274 1C       		.byte	28
+ 658 0275 3C       		.byte	60
+ 659 0276 23       		.byte	35
+ 660 0277 C2       		.byte	-62
+ 661 0278 33       		.byte	51
+ 662 0279 18       		.byte	24
+ 663 027a 0C       		.byte	12
+ 664 027b 00       		.byte	0
+ 665 027c 3F       		.byte	63
+ 666 027d 80       		.byte	-128
+ 667 027e 00       		.byte	0
+ 668 027f 00       		.byte	0
+ 669 0280 00       		.byte	0
+ 670 0281 44       		.byte	68
+ 671 0282 00       		.byte	0
+ 672 0283 00       		.byte	0
+ 673 0284 1F       		.byte	31
+ 674 0285 1C       		.byte	28
+ 675 0286 20       		.byte	32
+ 676 0287 E1       		.byte	-31
+ 677 0288 03       		.byte	3
+ 678 0289 08       		.byte	8
+ 679 028a 00       		.byte	0
+ 680 028b 00       		.byte	0
+ 681 028c 00       		.byte	0
+ 682 028d 00       		.byte	0
+ 683 028e 23       		.byte	35
+ 684 028f E3       		.byte	-29
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 13
+
+
+ 685 0290 08       		.byte	8
+ 686 0291 FF       		.byte	-1
+ 687 0292 00       		.byte	0
+ 688 0293 00       		.byte	0
+ 689 0294 04       		.byte	4
+ 690 0295 C0       		.byte	-64
+ 691 0296 00       		.byte	0
+ 692 0297 00       		.byte	0
+ 693 0298 0C       		.byte	12
+ 694 0299 E7       		.byte	-25
+ 695 029a 00       		.byte	0
+ 696 029b 18       		.byte	24
+ 697 029c 01       		.byte	1
+ 698 029d 00       		.byte	0
+ 699 029e 00       		.byte	0
+ 700 029f 04       		.byte	4
+ 701 02a0 10       		.byte	16
+ 702 02a1 00       		.byte	0
+ 703 02a2 2C       		.byte	44
+ 704 02a3 38       		.byte	56
+ 705 02a4 0F       		.byte	15
+ 706 02a5 1F       		.byte	31
+ 707 02a6 00       		.byte	0
+ 708 02a7 C0       		.byte	-64
+ 709 02a8 00       		.byte	0
+ 710 02a9 00       		.byte	0
+ 711 02aa A8       		.byte	-88
+ 712 02ab 20       		.byte	32
+ 713 02ac 00       		.byte	0
+ 714 02ad 00       		.byte	0
+ 715 02ae 01       		.byte	1
+ 716 02af 00       		.byte	0
+ 717 02b0 21       		.byte	33
+ 718 02b1 05       		.byte	5
+ 719 02b2 06       		.byte	6
+ 720 02b3 00       		.byte	0
+ 721 02b4 03       		.byte	3
+ 722 02b5 00       		.byte	0
+ 723 02b6 CE       		.byte	-50
+ 724 02b7 00       		.byte	0
+ 725 02b8 0C       		.byte	12
+ 726 02b9 FF       		.byte	-1
+ 727 02ba FF       		.byte	-1
+ 728 02bb FF       		.byte	-1
+ 729 02bc 62       		.byte	98
+ 730 02bd A0       		.byte	-96
+ 731 02be F0       		.byte	-16
+ 732 02bf 41       		.byte	65
+ 733 02c0 0C       		.byte	12
+ 734 02c1 00       		.byte	0
+ 735 02c2 00       		.byte	0
+ 736 02c3 00       		.byte	0
+ 737 02c4 00       		.byte	0
+ 738 02c5 00       		.byte	0
+ 739 02c6 02       		.byte	2
+ 740 02c7 10       		.byte	16
+ 741 02c8 04       		.byte	4
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 14
+
+
+ 742 02c9 04       		.byte	4
+ 743 02ca 04       		.byte	4
+ 744 02cb 04       		.byte	4
+ 745 02cc 00       		.byte	0
+ 746 02cd 00       		.byte	0
+ 747 02ce 00       		.byte	0
+ 748 02cf 01       		.byte	1
+ 749 02d0 00       		.byte	0
+ 750 02d1 00       		.byte	0
+ 751 02d2 00       		.byte	0
+ 752 02d3 00       		.byte	0
+ 753 02d4 00       		.byte	0
+ 754 02d5 00       		.byte	0
+ 755 02d6 40       		.byte	64
+ 756 02d7 02       		.byte	2
+ 757 02d8 00       		.byte	0
+ 758 02d9 10       		.byte	16
+ 759 02da 30       		.byte	48
+ 760 02db 10       		.byte	16
+ 761 02dc 00       		.byte	0
+ 762 02dd 10       		.byte	16
+ 763 02de 10       		.byte	16
+ 764 02df 12       		.byte	18
+ 765 02e0 00       		.byte	0
+ 766 02e1 00       		.byte	0
+ 767 02e2 00       		.byte	0
+ 768 02e3 00       		.byte	0
+ 769 02e4 00       		.byte	0
+ 770 02e5 00       		.byte	0
+ 771 02e6 00       		.byte	0
+ 772 02e7 00       		.byte	0
+ 773 02e8 00       		.byte	0
+ 774 02e9 00       		.byte	0
+ 775 02ea 00       		.byte	0
+ 776 02eb 00       		.byte	0
+ 777 02ec 00       		.byte	0
+ 778 02ed 00       		.byte	0
+ 779 02ee 00       		.byte	0
+ 780 02ef 00       		.byte	0
+ 781 02f0 00       		.byte	0
+ 782 02f1 3F       		.byte	63
+ 783 02f2 3F       		.byte	63
+ 784 02f3 00       		.byte	0
+ 785 02f4 09       		.byte	9
+ 786 02f5 00       		.byte	0
+ 787 02f6 00       		.byte	0
+ 788 02f7 00       		.byte	0
+ 789 02f8 30       		.byte	48
+ 790 02f9 00       		.byte	0
+ 791 02fa 04       		.byte	4
+ 792 02fb 00       		.byte	0
+ 793 02fc 30       		.byte	48
+ 794 02fd 00       		.byte	0
+ 795 02fe 30       		.byte	48
+ 796 02ff 00       		.byte	0
+ 797 0300 00       		.byte	0
+ 798 0301 00       		.byte	0
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 15
+
+
+ 799 0302 00       		.byte	0
+ 800 0303 00       		.byte	0
+ 801 0304 00       		.byte	0
+ 802 0305 0B       		.byte	11
+ 803 0306 0B       		.byte	11
+ 804 0307 00       		.byte	0
+ 805 0308 00       		.byte	0
+ 806 0309 00       		.byte	0
+ 807 030a 00       		.byte	0
+ 808 030b 00       		.byte	0
+ 809              		.section	.cywolatch,"a",%progbits
+ 810              		.align	2
+ 811              		.type	cy_meta_wonvl, %object
+ 812              		.size	cy_meta_wonvl, 4
+ 813              	cy_meta_wonvl:
+ 814 0000 BC       		.byte	-68
+ 815 0001 90       		.byte	-112
+ 816 0002 AC       		.byte	-84
+ 817 0003 AF       		.byte	-81
+ 818              		.section	.cycustnvl,"a",%progbits
+ 819              		.align	2
+ 820              		.type	cy_meta_custnvl, %object
+ 821              		.size	cy_meta_custnvl, 4
+ 822              	cy_meta_custnvl:
+ 823 0000 00       		.byte	0
+ 824 0001 00       		.byte	0
+ 825 0002 40       		.byte	64
+ 826 0003 05       		.byte	5
+ 827              		.section	.cymeta,"a",%progbits
+ 828              		.align	2
+ 829              		.type	cy_metadata, %object
+ 830              		.size	cy_metadata, 12
+ 831              	cy_metadata:
+ 832 0000 00       		.byte	0
+ 833 0001 01       		.byte	1
+ 834 0002 2E       		.byte	46
+ 835 0003 16       		.byte	22
+ 836 0004 10       		.byte	16
+ 837 0005 69       		.byte	105
+ 838 0006 00       		.byte	0
+ 839 0007 01       		.byte	1
+ 840 0008 00       		.byte	0
+ 841 0009 00       		.byte	0
+ 842 000a 00       		.byte	0
+ 843 000b 00       		.byte	0
+ 844              		.section	.cyflashprotect,"a",%progbits
+ 845              		.align	2
+ 846              		.type	cy_meta_flashprotect, %object
+ 847              		.size	cy_meta_flashprotect, 256
+ 848              	cy_meta_flashprotect:
+ 849 0000 00000000 		.space	256
+ 849      00000000 
+ 849      00000000 
+ 849      00000000 
+ 849      00000000 
+ 850              		.text
+ 851              	.Letext0:
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 16
+
+
+ 852              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 853              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 854              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 855              		.section	.debug_info,"",%progbits
+ 856              	.Ldebug_info0:
+ 857 0000 31010000 		.4byte	0x131
+ 858 0004 0400     		.2byte	0x4
+ 859 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 860 000a 04       		.byte	0x4
+ 861 000b 01       		.uleb128 0x1
+ 862 000c 24000000 		.4byte	.LASF17
+ 863 0010 0C       		.byte	0xc
+ 864 0011 EA010000 		.4byte	.LASF18
+ 865 0015 E7000000 		.4byte	.LASF19
+ 866 0019 00000000 		.4byte	.Ldebug_line0
+ 867 001d 02       		.uleb128 0x2
+ 868 001e 01       		.byte	0x1
+ 869 001f 06       		.byte	0x6
+ 870 0020 DE010000 		.4byte	.LASF0
+ 871 0024 03       		.uleb128 0x3
+ 872 0025 00000000 		.4byte	.LASF9
+ 873 0029 01       		.byte	0x1
+ 874 002a 1D       		.byte	0x1d
+ 875 002b 2F000000 		.4byte	0x2f
+ 876 002f 02       		.uleb128 0x2
+ 877 0030 01       		.byte	0x1
+ 878 0031 08       		.byte	0x8
+ 879 0032 16000000 		.4byte	.LASF1
+ 880 0036 02       		.uleb128 0x2
+ 881 0037 02       		.byte	0x2
+ 882 0038 05       		.byte	0x5
+ 883 0039 CB010000 		.4byte	.LASF2
+ 884 003d 02       		.uleb128 0x2
+ 885 003e 02       		.byte	0x2
+ 886 003f 07       		.byte	0x7
+ 887 0040 C4000000 		.4byte	.LASF3
+ 888 0044 02       		.uleb128 0x2
+ 889 0045 04       		.byte	0x4
+ 890 0046 05       		.byte	0x5
+ 891 0047 D5010000 		.4byte	.LASF4
+ 892 004b 02       		.uleb128 0x2
+ 893 004c 04       		.byte	0x4
+ 894 004d 07       		.byte	0x7
+ 895 004e B2000000 		.4byte	.LASF5
+ 896 0052 02       		.uleb128 0x2
+ 897 0053 08       		.byte	0x8
+ 898 0054 05       		.byte	0x5
+ 899 0055 BD010000 		.4byte	.LASF6
+ 900 0059 02       		.uleb128 0x2
+ 901 005a 08       		.byte	0x8
+ 902 005b 07       		.byte	0x7
+ 903 005c 72010000 		.4byte	.LASF7
+ 904 0060 04       		.uleb128 0x4
+ 905 0061 04       		.byte	0x4
+ 906 0062 05       		.byte	0x5
+ 907 0063 696E7400 		.ascii	"int\000"
+ 908 0067 02       		.uleb128 0x2
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 17
+
+
+ 909 0068 04       		.byte	0x4
+ 910 0069 07       		.byte	0x7
+ 911 006a 65010000 		.4byte	.LASF8
+ 912 006e 03       		.uleb128 0x3
+ 913 006f 89010000 		.4byte	.LASF10
+ 914 0073 02       		.byte	0x2
+ 915 0074 18       		.byte	0x18
+ 916 0075 24000000 		.4byte	0x24
+ 917 0079 05       		.uleb128 0x5
+ 918 007a 91000000 		.4byte	0x91
+ 919 007e 8A000000 		.4byte	0x8a
+ 920 0082 06       		.uleb128 0x6
+ 921 0083 8A000000 		.4byte	0x8a
+ 922 0087 0B03     		.2byte	0x30b
+ 923 0089 00       		.byte	0
+ 924 008a 02       		.uleb128 0x2
+ 925 008b 04       		.byte	0x4
+ 926 008c 07       		.byte	0x7
+ 927 008d B4010000 		.4byte	.LASF11
+ 928 0091 07       		.uleb128 0x7
+ 929 0092 6E000000 		.4byte	0x6e
+ 930 0096 08       		.uleb128 0x8
+ 931 0097 53010000 		.4byte	.LASF12
+ 932 009b 03       		.byte	0x3
+ 933 009c 1F       		.byte	0x1f
+ 934 009d A7000000 		.4byte	0xa7
+ 935 00a1 05       		.uleb128 0x5
+ 936 00a2 03       		.byte	0x3
+ 937 00a3 00000000 		.4byte	cy_meta_configecc
+ 938 00a7 07       		.uleb128 0x7
+ 939 00a8 79000000 		.4byte	0x79
+ 940 00ac 05       		.uleb128 0x5
+ 941 00ad 91000000 		.4byte	0x91
+ 942 00b1 BC000000 		.4byte	0xbc
+ 943 00b5 09       		.uleb128 0x9
+ 944 00b6 8A000000 		.4byte	0x8a
+ 945 00ba 03       		.byte	0x3
+ 946 00bb 00       		.byte	0
+ 947 00bc 08       		.uleb128 0x8
+ 948 00bd D7000000 		.4byte	.LASF13
+ 949 00c1 03       		.byte	0x3
+ 950 00c2 8E       		.byte	0x8e
+ 951 00c3 CD000000 		.4byte	0xcd
+ 952 00c7 05       		.uleb128 0x5
+ 953 00c8 03       		.byte	0x3
+ 954 00c9 00000000 		.4byte	cy_meta_custnvl
+ 955 00cd 07       		.uleb128 0x7
+ 956 00ce AC000000 		.4byte	0xac
+ 957 00d2 08       		.uleb128 0x8
+ 958 00d3 A6010000 		.4byte	.LASF14
+ 959 00d7 03       		.byte	0x3
+ 960 00d8 9C       		.byte	0x9c
+ 961 00d9 E3000000 		.4byte	0xe3
+ 962 00dd 05       		.uleb128 0x5
+ 963 00de 03       		.byte	0x3
+ 964 00df 00000000 		.4byte	cy_meta_wonvl
+ 965 00e3 07       		.uleb128 0x7
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 18
+
+
+ 966 00e4 AC000000 		.4byte	0xac
+ 967 00e8 05       		.uleb128 0x5
+ 968 00e9 91000000 		.4byte	0x91
+ 969 00ed F8000000 		.4byte	0xf8
+ 970 00f1 09       		.uleb128 0x9
+ 971 00f2 8A000000 		.4byte	0x8a
+ 972 00f6 FF       		.byte	0xff
+ 973 00f7 00       		.byte	0
+ 974 00f8 08       		.uleb128 0x8
+ 975 00f9 91010000 		.4byte	.LASF15
+ 976 00fd 03       		.byte	0x3
+ 977 00fe AA       		.byte	0xaa
+ 978 00ff 09010000 		.4byte	0x109
+ 979 0103 05       		.uleb128 0x5
+ 980 0104 03       		.byte	0x3
+ 981 0105 00000000 		.4byte	cy_meta_flashprotect
+ 982 0109 07       		.uleb128 0x7
+ 983 010a E8000000 		.4byte	0xe8
+ 984 010e 05       		.uleb128 0x5
+ 985 010f 91000000 		.4byte	0x91
+ 986 0113 1E010000 		.4byte	0x11e
+ 987 0117 09       		.uleb128 0x9
+ 988 0118 8A000000 		.4byte	0x8a
+ 989 011c 0B       		.byte	0xb
+ 990 011d 00       		.byte	0
+ 991 011e 08       		.uleb128 0x8
+ 992 011f 0A000000 		.4byte	.LASF16
+ 993 0123 03       		.byte	0x3
+ 994 0124 D7       		.byte	0xd7
+ 995 0125 2F010000 		.4byte	0x12f
+ 996 0129 05       		.uleb128 0x5
+ 997 012a 03       		.byte	0x3
+ 998 012b 00000000 		.4byte	cy_metadata
+ 999 012f 07       		.uleb128 0x7
+ 1000 0130 0E010000 		.4byte	0x10e
+ 1001 0134 00       		.byte	0
+ 1002              		.section	.debug_abbrev,"",%progbits
+ 1003              	.Ldebug_abbrev0:
+ 1004 0000 01       		.uleb128 0x1
+ 1005 0001 11       		.uleb128 0x11
+ 1006 0002 01       		.byte	0x1
+ 1007 0003 25       		.uleb128 0x25
+ 1008 0004 0E       		.uleb128 0xe
+ 1009 0005 13       		.uleb128 0x13
+ 1010 0006 0B       		.uleb128 0xb
+ 1011 0007 03       		.uleb128 0x3
+ 1012 0008 0E       		.uleb128 0xe
+ 1013 0009 1B       		.uleb128 0x1b
+ 1014 000a 0E       		.uleb128 0xe
+ 1015 000b 10       		.uleb128 0x10
+ 1016 000c 17       		.uleb128 0x17
+ 1017 000d 00       		.byte	0
+ 1018 000e 00       		.byte	0
+ 1019 000f 02       		.uleb128 0x2
+ 1020 0010 24       		.uleb128 0x24
+ 1021 0011 00       		.byte	0
+ 1022 0012 0B       		.uleb128 0xb
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 19
+
+
+ 1023 0013 0B       		.uleb128 0xb
+ 1024 0014 3E       		.uleb128 0x3e
+ 1025 0015 0B       		.uleb128 0xb
+ 1026 0016 03       		.uleb128 0x3
+ 1027 0017 0E       		.uleb128 0xe
+ 1028 0018 00       		.byte	0
+ 1029 0019 00       		.byte	0
+ 1030 001a 03       		.uleb128 0x3
+ 1031 001b 16       		.uleb128 0x16
+ 1032 001c 00       		.byte	0
+ 1033 001d 03       		.uleb128 0x3
+ 1034 001e 0E       		.uleb128 0xe
+ 1035 001f 3A       		.uleb128 0x3a
+ 1036 0020 0B       		.uleb128 0xb
+ 1037 0021 3B       		.uleb128 0x3b
+ 1038 0022 0B       		.uleb128 0xb
+ 1039 0023 49       		.uleb128 0x49
+ 1040 0024 13       		.uleb128 0x13
+ 1041 0025 00       		.byte	0
+ 1042 0026 00       		.byte	0
+ 1043 0027 04       		.uleb128 0x4
+ 1044 0028 24       		.uleb128 0x24
+ 1045 0029 00       		.byte	0
+ 1046 002a 0B       		.uleb128 0xb
+ 1047 002b 0B       		.uleb128 0xb
+ 1048 002c 3E       		.uleb128 0x3e
+ 1049 002d 0B       		.uleb128 0xb
+ 1050 002e 03       		.uleb128 0x3
+ 1051 002f 08       		.uleb128 0x8
+ 1052 0030 00       		.byte	0
+ 1053 0031 00       		.byte	0
+ 1054 0032 05       		.uleb128 0x5
+ 1055 0033 01       		.uleb128 0x1
+ 1056 0034 01       		.byte	0x1
+ 1057 0035 49       		.uleb128 0x49
+ 1058 0036 13       		.uleb128 0x13
+ 1059 0037 01       		.uleb128 0x1
+ 1060 0038 13       		.uleb128 0x13
+ 1061 0039 00       		.byte	0
+ 1062 003a 00       		.byte	0
+ 1063 003b 06       		.uleb128 0x6
+ 1064 003c 21       		.uleb128 0x21
+ 1065 003d 00       		.byte	0
+ 1066 003e 49       		.uleb128 0x49
+ 1067 003f 13       		.uleb128 0x13
+ 1068 0040 2F       		.uleb128 0x2f
+ 1069 0041 05       		.uleb128 0x5
+ 1070 0042 00       		.byte	0
+ 1071 0043 00       		.byte	0
+ 1072 0044 07       		.uleb128 0x7
+ 1073 0045 26       		.uleb128 0x26
+ 1074 0046 00       		.byte	0
+ 1075 0047 49       		.uleb128 0x49
+ 1076 0048 13       		.uleb128 0x13
+ 1077 0049 00       		.byte	0
+ 1078 004a 00       		.byte	0
+ 1079 004b 08       		.uleb128 0x8
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 20
+
+
+ 1080 004c 34       		.uleb128 0x34
+ 1081 004d 00       		.byte	0
+ 1082 004e 03       		.uleb128 0x3
+ 1083 004f 0E       		.uleb128 0xe
+ 1084 0050 3A       		.uleb128 0x3a
+ 1085 0051 0B       		.uleb128 0xb
+ 1086 0052 3B       		.uleb128 0x3b
+ 1087 0053 0B       		.uleb128 0xb
+ 1088 0054 49       		.uleb128 0x49
+ 1089 0055 13       		.uleb128 0x13
+ 1090 0056 3F       		.uleb128 0x3f
+ 1091 0057 19       		.uleb128 0x19
+ 1092 0058 02       		.uleb128 0x2
+ 1093 0059 18       		.uleb128 0x18
+ 1094 005a 00       		.byte	0
+ 1095 005b 00       		.byte	0
+ 1096 005c 09       		.uleb128 0x9
+ 1097 005d 21       		.uleb128 0x21
+ 1098 005e 00       		.byte	0
+ 1099 005f 49       		.uleb128 0x49
+ 1100 0060 13       		.uleb128 0x13
+ 1101 0061 2F       		.uleb128 0x2f
+ 1102 0062 0B       		.uleb128 0xb
+ 1103 0063 00       		.byte	0
+ 1104 0064 00       		.byte	0
+ 1105 0065 00       		.byte	0
+ 1106              		.section	.debug_aranges,"",%progbits
+ 1107 0000 14000000 		.4byte	0x14
+ 1108 0004 0200     		.2byte	0x2
+ 1109 0006 00000000 		.4byte	.Ldebug_info0
+ 1110 000a 04       		.byte	0x4
+ 1111 000b 00       		.byte	0
+ 1112 000c 0000     		.2byte	0
+ 1113 000e 0000     		.2byte	0
+ 1114 0010 00000000 		.4byte	0
+ 1115 0014 00000000 		.4byte	0
+ 1116              		.section	.debug_line,"",%progbits
+ 1117              	.Ldebug_line0:
+ 1118 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 1118      02003701 
+ 1118      00000201 
+ 1118      FB0E0D00 
+ 1118      01010101 
+ 1119              	.LASF9:
+ 1120 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 1120      6E74385F 
+ 1120      7400
+ 1121              	.LASF16:
+ 1122 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 1122      65746164 
+ 1122      61746100 
+ 1123              	.LASF1:
+ 1124 0016 756E7369 		.ascii	"unsigned char\000"
+ 1124      676E6564 
+ 1124      20636861 
+ 1124      7200
+ 1125              	.LASF17:
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 21
+
+
+ 1126 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1126      43313120 
+ 1126      352E342E 
+ 1126      31203230 
+ 1126      31363036 
+ 1127 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1127      20726576 
+ 1127      6973696F 
+ 1127      6E203233 
+ 1127      37373135 
+ 1128 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1128      66756E63 
+ 1128      74696F6E 
+ 1128      2D736563 
+ 1128      74696F6E 
+ 1129              	.LASF5:
+ 1130 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1130      20756E73 
+ 1130      69676E65 
+ 1130      6420696E 
+ 1130      7400
+ 1131              	.LASF3:
+ 1132 00c4 73686F72 		.ascii	"short unsigned int\000"
+ 1132      7420756E 
+ 1132      7369676E 
+ 1132      65642069 
+ 1132      6E7400
+ 1133              	.LASF13:
+ 1134 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 1134      6574615F 
+ 1134      63757374 
+ 1134      6E766C00 
+ 1135              	.LASF19:
+ 1136 00e7 433A5C55 		.ascii	"C:\\Users\\Gabriel\\OneDrive - frt.utn.edu.ar\\Docu"
+ 1136      73657273 
+ 1136      5C476162 
+ 1136      7269656C 
+ 1136      5C4F6E65 
+ 1137 0116 6D656E74 		.ascii	"mentos\\PSoC Creator\\Proyecto_DigitalesII\\RobotBl"
+ 1137      6F735C50 
+ 1137      536F4320 
+ 1137      43726561 
+ 1137      746F725C 
+ 1138 0146 7565746F 		.ascii	"uetoth.cydsn\000"
+ 1138      74682E63 
+ 1138      7964736E 
+ 1138      00
+ 1139              	.LASF12:
+ 1140 0153 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 1140      6574615F 
+ 1140      636F6E66 
+ 1140      69676563 
+ 1140      6300
+ 1141              	.LASF8:
+ 1142 0165 756E7369 		.ascii	"unsigned int\000"
+ 1142      676E6564 
+ 1142      20696E74 
+ARM GAS  C:\Users\Gabriel\AppData\Local\Temp\ccvcQcDI.s 			page 22
+
+
+ 1142      00
+ 1143              	.LASF7:
+ 1144 0172 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1144      206C6F6E 
+ 1144      6720756E 
+ 1144      7369676E 
+ 1144      65642069 
+ 1145              	.LASF10:
+ 1146 0189 75696E74 		.ascii	"uint8_t\000"
+ 1146      385F7400 
+ 1147              	.LASF15:
+ 1148 0191 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 1148      6574615F 
+ 1148      666C6173 
+ 1148      6870726F 
+ 1148      74656374 
+ 1149              	.LASF14:
+ 1150 01a6 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 1150      6574615F 
+ 1150      776F6E76 
+ 1150      6C00
+ 1151              	.LASF11:
+ 1152 01b4 73697A65 		.ascii	"sizetype\000"
+ 1152      74797065 
+ 1152      00
+ 1153              	.LASF6:
+ 1154 01bd 6C6F6E67 		.ascii	"long long int\000"
+ 1154      206C6F6E 
+ 1154      6720696E 
+ 1154      7400
+ 1155              	.LASF2:
+ 1156 01cb 73686F72 		.ascii	"short int\000"
+ 1156      7420696E 
+ 1156      7400
+ 1157              	.LASF4:
+ 1158 01d5 6C6F6E67 		.ascii	"long int\000"
+ 1158      20696E74 
+ 1158      00
+ 1159              	.LASF0:
+ 1160 01de 7369676E 		.ascii	"signed char\000"
+ 1160      65642063 
+ 1160      68617200 
+ 1161              	.LASF18:
+ 1162 01ea 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 1162      72617465 
+ 1162      645F536F 
+ 1162      75726365 
+ 1162      5C50536F 
+ 1163              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
